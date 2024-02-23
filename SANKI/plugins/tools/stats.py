@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from AarohiX import app
-from AarohiX.core.userbot import assistants
-from AarohiX.misc import SUDOERS, mongodb
-from AarohiX.plugins import ALL_MODULES
-from AarohiX.utils.database import get_served_chats, get_served_users, get_sudoers
-from AarohiX.utils.decorators.language import language, languageCB
-from AarohiX.utils.inline.stats import back_stats_buttons, stats_buttons
+from SANKI import app
+from SANKI.core.userbot import assistants
+from SANKI.misc import SUDOERS, mongodb
+from SANKI.plugins import ALL_MODULES
+from SANKI.utils.database import get_served_chats, get_served_users, get_sudoers
+from SANKI.utils.decorators.language import language, languageCB
+from SANKI.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
