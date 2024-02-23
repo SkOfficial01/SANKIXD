@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import add_gban_user, remove_gban_user
-from AarohiX.utils.decorators.language import language
-from AarohiX.utils.extraction import extract_user
+from SANKI import app
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import add_gban_user, remove_gban_user
+from SANKI.utils.decorators.language import language
+from SANKI.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
