@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import autoend_off, autoend_on
+from SANKI import app
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
