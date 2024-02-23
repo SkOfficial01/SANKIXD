@@ -1,7 +1,7 @@
 import requests
 from pyrogram import Client
 from pyrogram import filters
-from AarohiX import app
+from SANKI import app
 
 random_user_api_url = 'https://randomuser.me/api/'
 
