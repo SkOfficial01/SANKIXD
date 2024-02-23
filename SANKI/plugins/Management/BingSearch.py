@@ -1,4 +1,4 @@
-from AarohiX import app 
+from SANKI import app 
 import requests as r
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup 
 from pyrogram import filters 
