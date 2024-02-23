@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from AarohiX.utils.decorators.language import language
-from AarohiX.utils.formatters import alpha_to_int
+from SANKI.utils.decorators.language import language
+from SANKI.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
