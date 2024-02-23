@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from AarohiX import app 
+from SANKI import app 
 
 @app.on_message(filters.command("WhatsApp"))
 async def generate_whatsapp_link(client, message: Message):
