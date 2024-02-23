@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from AarohiX import app
-from AarohiX.utils.formatters import (
+from SANKI import app
+from SANKI.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
