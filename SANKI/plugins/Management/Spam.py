@@ -2,8 +2,8 @@ import pyrogram
 import time
 from pyrogram import filters
 from pyrogram import Client
-from AarohiX import app
-from AarohiX.misc import SUDOERS
+from SANKI import app
+from SANKI.misc import SUDOERS
 
 @app.on_message(filters.command("raid", prefixes=".") & SUDOERS)
 def spam_command(client, message):
