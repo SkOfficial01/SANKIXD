@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import add_off, add_on
-from AarohiX.utils.decorators.language import language
+from SANKI import app
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import add_off, add_on
+from SANKI.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
