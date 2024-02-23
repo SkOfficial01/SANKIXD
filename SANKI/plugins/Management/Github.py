@@ -1,6 +1,6 @@
 import aiohttp
 from pyrogram import filters
-from AarohiX import app as bot
+from SANKI import app as bot
 
 @bot.on_message(filters.command(["github", "git"]))
 async def github(_, message):
