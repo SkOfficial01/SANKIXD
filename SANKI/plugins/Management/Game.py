@@ -1,6 +1,6 @@
 from pyrogram import Client, enums, filters
 import asyncio
-from AarohiX import app
+from SANKI import app
 
 from pyrogram.handlers import MessageHandler
 
