@@ -1,6 +1,6 @@
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram import Client, filters
-from AarohiX import app
+from SANKI import app
 
 
 @app.on_message(filters.photo & filters.private)
