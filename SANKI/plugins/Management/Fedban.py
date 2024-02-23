@@ -5,12 +5,12 @@ Copyright (c) 2024 @Alone_Dil_bot
 
 import uuid
 import asyncio
-from AarohiX.utils.Databases.feds_db import *
+from SANKI.utils.Databases.feds_db import *
 import os
-from AarohiX import app
+from SANKI import app
 import config
 #from config import BOT_USERNAME as BOT_ID
-from AarohiX.misc import SUDOERS as SUDO
+from SANKI.misc import SUDOERS as SUDO
 from config import LOGGER_ID as LOG_GROUP_ID
 
 
@@ -18,9 +18,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus, ChatType, ParseMode
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AarohiX.utils.function.fedsfunction import extract_user, extract_user_and_reason
+from SANKI.utils.function.fedsfunction import extract_user, extract_user_and_reason
 from pyrogram.errors import FloodWait, PeerIdInvalid
-from AarohiX.utils.errors import capture_err
+from SANKI.utils.errors import capture_err
 
 __MODULE__ = "Federation"
 __HELP__ = """
