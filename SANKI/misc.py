@@ -5,7 +5,7 @@ import heroku3
 from pyrogram import filters
 
 import config
-from AarohiX.core.mongo import mongodb
+from SANKI.core.mongo import mongodb
 
 from .logging import LOGGER
 
