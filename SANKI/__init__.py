@@ -1,8 +1,8 @@
-from AarohiX.core.bot import Dil
-from AarohiX.core.dir import dirr
-from AarohiX.core.git import git
-from AarohiX.core.userbot import Userbot
-from AarohiX.misc import dbb, heroku
+from SANKI.core.bot import Sanki
+from SANKI.core.dir import dirr
+from SANKI.core.git import git
+from SANKI.core.userbot import Userbot
+from SANKI.misc import dbb, heroku
 
 from .logging import LOGGER
 
