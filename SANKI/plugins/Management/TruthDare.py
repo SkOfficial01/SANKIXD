@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from AarohiX import app
+from SANKI import app
 
 truth_api_url = "https://api.truthordarebot.xyz/v1/truth"
 dare_api_url = "https://api.truthordarebot.xyz/v1/dare"
