@@ -1,6 +1,6 @@
 import aiohttp
 from io import BytesIO
-from AarohiX import app
+from SANKI import app
 from pyrogram import filters
 
 
