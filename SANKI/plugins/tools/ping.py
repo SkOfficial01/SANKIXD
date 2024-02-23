@@ -3,10 +3,10 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaVideo
 
-from AarohiX import app
-from AarohiX.core.call import Dil
-from AarohiX.utils import bot_sys_stats
-from AarohiX.utils.decorators.language import language
+from SANKI import app
+from SANKI.core.call import Dil
+from SANKI.utils import bot_sys_stats
+from SANKI.utils.decorators.language import language
 from config import BANNED_USERS, PING_IMG_URL
 
 
