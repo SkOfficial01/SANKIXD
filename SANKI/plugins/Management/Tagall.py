@@ -1,8 +1,8 @@
 import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
-from AarohiX import app
+from SANKI import app
 from pyrogram import filters
-from AarohiX.utils.admin_check import admin_filter
+from SANKI.utils.admin_check import admin_filter
 
 
 
