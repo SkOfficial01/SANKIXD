@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from AarohiX import app
-from AarohiX.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from AarohiX.utils.decorators import language
-from AarohiX.utils.inline.settings import playmode_users_markup
+from SANKI import app
+from SANKI.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from SANKI.utils.decorators import language
+from SANKI.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
 
 
