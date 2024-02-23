@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from AarohiX import app
+from SANKI import app
 
 @app.on_message(filters.command("weather"))
 def weather(client, message):
