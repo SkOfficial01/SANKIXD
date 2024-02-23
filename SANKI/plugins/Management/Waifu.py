@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from AarohiX import app
+from SANKI import app
 
 waifu_api_url = 'https://api.waifu.im/search'
 
