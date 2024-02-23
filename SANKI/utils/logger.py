@@ -1,7 +1,7 @@
 from pyrogram.enums import ParseMode
 
-from AarohiX import app
-from AarohiX.utils.database import is_on_off
+from SANKI import app
+from SANKI.utils.database import is_on_off
 from config import LOGGER_ID
 
 
