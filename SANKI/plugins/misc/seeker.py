@@ -1,7 +1,7 @@
 import asyncio
 
-from AarohiX.misc import db
-from AarohiX.utils.database import get_active_chats, is_music_playing
+from SANKI.misc import db
+from SANKI.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
