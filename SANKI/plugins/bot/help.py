@@ -3,11 +3,11 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from AarohiX import app
-from AarohiX.utils import first_page, second_page
-from AarohiX.utils.database import get_lang
-from AarohiX.utils.decorators.language import LanguageStart, languageCB
-from AarohiX.utils.inline.help import help_back_markup, private_help_panel
+from SANKI import app
+from SANKI.utils import first_page, second_page
+from SANKI.utils.database import get_lang
+from SANKI.utils.decorators.language import LanguageStart, languageCB
+from SANKI.utils.inline.help import help_back_markup, private_help_panel
 from config import BANNED_USERS, START_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
 
@@ -114,7 +114,7 @@ async def helper_cb(client, CallbackQuery, _):
     elif cb == "hb16":
         await CallbackQuery.edit_message_text(helpers.HELP_16, reply_markup=keyboard)
 
-@app.on_callback_query(filters.regex("dilXaditi") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("sanki") & ~BANNED_USERS)
 @languageCB
 async def first_pagexx(client, CallbackQuery, _):
     menu_next = second_page(_)
