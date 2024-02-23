@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.core.call import Dil
-from AarohiX.misc import SUDOERS, db
-from AarohiX.utils import AdminRightsCheck
-from AarohiX.utils.database import is_active_chat, is_nonadmin_chat
-from AarohiX.utils.decorators.language import languageCB
-from AarohiX.utils.inline import close_markup, speed_markup
+from SANKI import app
+from SANKI.core.call import Dil
+from SANKI.misc import SUDOERS, db
+from SANKI.utils import AdminRightsCheck
+from SANKI.utils.database import is_active_chat, is_nonadmin_chat
+from SANKI.utils.decorators.language import languageCB
+from SANKI.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
