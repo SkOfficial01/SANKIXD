@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from AarohiX import app
+from SANKI import app
 
 bored_api_url = "https://apis.scrimba.com/bored/api/activity"
 
