@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.utils.database import get_loop, set_loop
-from AarohiX.utils.decorators import AdminRightsCheck
-from AarohiX.utils.inline import close_markup
+from SANKI import app
+from SANKI.utils.database import get_loop, set_loop
+from SANKI.utils.decorators import AdminRightsCheck
+from SANKI.utils.inline import close_markup
 from config import BANNED_USERS
 
 
