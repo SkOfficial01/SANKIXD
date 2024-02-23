@@ -15,10 +15,10 @@ from AarohiX.utils.Databases.blacklist_db import (
     get_blacklisted_words,
     save_blacklist_filter,
 )
-from AarohiX import app
-from AarohiX.utils.errors import capture_err
-from AarohiX.utils.permission import adminsOnly, list_admins
-from AarohiX.misc import SUDOERS as SUDO
+from SANKI import app
+from SANKI.utils.errors import capture_err
+from SANKI.utils.permission import adminsOnly, list_admins
+from SANKI.misc import SUDOERS as SUDO
 
 __MODULE__ = "Blacklist"
 __HELP__ = """
