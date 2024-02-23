@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
