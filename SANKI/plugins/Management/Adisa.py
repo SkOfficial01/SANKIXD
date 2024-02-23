@@ -1,7 +1,7 @@
 import requests
 import random
-from AarohiX import app
-from AarohiX.misc import SUDOERS
+from SANKI import app
+from SANKI.misc import SUDOERS
 from pyrogram import *
 from pyrogram.types import *
 from pyrogram.types import Message
