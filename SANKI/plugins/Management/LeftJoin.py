@@ -1,4 +1,4 @@
-from AarohiX import app as bot
+from SANKI import app as bot
 from pyrogram import filters
 from pyrogram.errors import RPCError, ChatAdminRequired
 from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
