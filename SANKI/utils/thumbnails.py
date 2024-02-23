@@ -84,7 +84,7 @@ async def get_thumb(videoid):
             background = enhancer.enhance(0.6)
             image2 = background
                                                                                             
-            circle = Image.open("AarohiX/assets/circle.png")
+            circle = Image.open("SANKI/assets/circle.png")
 
             # changing circle color
             im = circle
@@ -116,13 +116,13 @@ async def get_thumb(videoid):
             image2.paste(circle, (0,0), mask = circle)
 
             # fonts
-            font1 = ImageFont.truetype('AarohiX/assets/font.ttf', 30)
-            font2 = ImageFont.truetype('AarohiX/assets/font2.ttf', 70)
-            font3 = ImageFont.truetype('AarohiX/assets/font2.ttf', 40)
-            font4 = ImageFont.truetype('AarohiX/assets/font2.ttf', 35)
+            font1 = ImageFont.truetype('SANKI/assets/font.ttf', 30)
+            font2 = ImageFont.truetype('SANKI/assets/font2.ttf', 70)
+            font3 = ImageFont.truetype('SANKI/assets/font2.ttf', 40)
+            font4 = ImageFont.truetype('SANKI/assets/font2.ttf', 35)
 
             image4 = ImageDraw.Draw(image2)
-            image4.text((10, 10), "DIL[AAROHI] x MUSIC", fill="white", font = font1, align ="left") 
+            image4.text((10, 10), "SUMIT[SANKI XD] x MUSIC", fill="white", font = font1, align ="left") 
             image4.text((670, 150), "NOW PLAYING", fill="white", font = font2, stroke_width=2, stroke_fill="white", align ="left") 
 
             # title
