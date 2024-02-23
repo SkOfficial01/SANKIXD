@@ -157,7 +157,7 @@ Press `Ctrl+C` when you're done with editing env and `:wq` to save the env<br>
 </h3>
 
 <p align="center">
-<a href="https://t.me/KAMINA_XDX"> <img src="https://img.shields.io/badge/Sagar-darkred?style=for-the-badge&logo=github" alt="Sagar" /> </a>
+<a href="https://t.me/KAMINA_XDX"> <img src="https://img.shields.io/badge/SUMIT-darkred?style=for-the-badge&logo=github" alt="SUMIT" /> </a>
 </p>
 
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
