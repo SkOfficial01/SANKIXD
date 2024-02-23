@@ -6,11 +6,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtubesearchpython.__future__ import VideosSearch
 
 import config
-from AarohiX import app
-from AarohiX.misc import _boot_
-from AarohiX.plugins.sudo.sudoers import sudoers_list
-from AarohiX.utils import bot_sys_stats
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.misc import _boot_
+from SANKI.plugins.sudo.sudoers import sudoers_list
+from SANKI.utils import bot_sys_stats
+from SANKI.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -18,9 +18,9 @@ from AarohiX.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from AarohiX.utils.decorators.language import LanguageStart
-from AarohiX.utils.formatters import get_readable_time
-from AarohiX.utils.inline import first_page, private_panel, start_panel
+from SANKI.utils.decorators.language import LanguageStart
+from SANKI.utils.formatters import get_readable_time
+from SANKI.utils.inline import first_page, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
@@ -29,13 +29,13 @@ from strings import get_string
 
 """
 ADISA_PICS = [
-"https://graph.org/file/e0c7e04cc0acff425fe5d.jpg",
-"https://graph.org/file/0f256eac6f4a8a053193a.jpg",
-"https://graph.org/file/e3babc6e511746be05204.jpg",
-"https://graph.org/file/323acfeef219c919091ec.jpg",
-"https://graph.org/file/1f34f63999a5599051b94.jpg",
-"https://graph.org/file/528b50c44cbfedda9c77e.jpg",
-"https://graph.org/file/365b3ab63ccd789f99bb4.jpg"
+"https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
+"https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
+"https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
+"https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
+"https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
+"https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
+"https://telegra.ph/file/0c2a557598a5aa8033895.jpg"
 ]
 
 
