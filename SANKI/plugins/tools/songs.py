@@ -12,10 +12,10 @@ from pyrogram.types import (InlineKeyboardButton,
 
 from config import (BANNED_USERS, SONG_DOWNLOAD_DURATION,
                     SONG_DOWNLOAD_DURATION_LIMIT)
-from AarohiX import YouTube, app
-from AarohiX.utils.decorators.language import language, languageCB
-from AarohiX.utils.formatters import convert_bytes
-from AarohiX.utils.inline.song import song_markup
+from SANKI import YouTube, app
+from SANKI.utils.decorators.language import language, languageCB
+from SANKI.utils.formatters import convert_bytes
+from SANKI.utils.inline.song import song_markup
 
 
 
