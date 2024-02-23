@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from AarohiX import app
-from AarohiX.misc import db
-from AarohiX.utils import DilBin, get_channeplayCB, seconds_to_min
-from AarohiX.utils.database import get_cmode, is_active_chat, is_music_playing
-from AarohiX.utils.decorators.language import language, languageCB
-from AarohiX.utils.inline import queue_back_markup, queue_markup
+from SANKI import app
+from SANKI.misc import db
+from SANKI.utils import DilBin, get_channeplayCB, seconds_to_min
+from SANKI.utils.database import get_cmode, is_active_chat, is_music_playing
+from SANKI.utils.decorators.language import language, languageCB
+from SANKI.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
