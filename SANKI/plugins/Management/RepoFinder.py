@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from AarohiX import app
+from SANKI import app
 
 def chunk_string(text, chunk_size):
     return [text[i:i + chunk_size] for i in range(0, len(text), chunk_size)]
