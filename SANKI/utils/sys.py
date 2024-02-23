@@ -2,8 +2,8 @@ import time
 
 import psutil
 
-from AarohiX.misc import _boot_
-from AarohiX.utils.formatters import get_readable_time
+from SANKI.misc import _boot_
+from SANKI.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
