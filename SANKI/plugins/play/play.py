@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from AarohiX import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from AarohiX.core.call import Dil
-from AarohiX.utils import seconds_to_min, time_to_seconds
-from AarohiX.utils.channelplay import get_channeplayCB
-from AarohiX.utils.decorators.language import languageCB
-from AarohiX.utils.decorators.play import PlayWrapper
-from AarohiX.utils.formatters import formats
-from AarohiX.utils.inline import (
+from SANKI import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from SANKI.core.call import Dil
+from SANKI.utils import seconds_to_min, time_to_seconds
+from SANKI.utils.channelplay import get_channeplayCB
+from SANKI.utils.decorators.language import languageCB
+from SANKI.utils.decorators.play import PlayWrapper
+from SANKI.utils.formatters import formats
+from SANKI.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from AarohiX.utils.logger import play_logs
-from AarohiX.utils.stream.stream import stream
+from SANKI.utils.logger import play_logs
+from SANKI.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
