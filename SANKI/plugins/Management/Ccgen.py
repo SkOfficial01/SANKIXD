@@ -1,5 +1,5 @@
 from SafoneAPI import SafoneAPI
-from AarohiX import app
+from SANKI import app
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 api = SafoneAPI()
