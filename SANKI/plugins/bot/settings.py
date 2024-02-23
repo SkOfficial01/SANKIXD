@@ -12,8 +12,8 @@ from pyrogram.types import (
     Message,
 )
 
-from AarohiX import app
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -29,15 +29,15 @@ from AarohiX.utils.database import (
     skip_off,
     skip_on,
 )
-from AarohiX.utils.decorators.admins import ActualAdminCB
-from AarohiX.utils.decorators.language import language, languageCB
-from AarohiX.utils.inline.settings import (
+from SANKI.utils.decorators.admins import ActualAdminCB
+from SANKI.utils.decorators.language import language, languageCB
+from SANKI.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from AarohiX.utils.inline.start import private_panel
+from SANKI.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 
