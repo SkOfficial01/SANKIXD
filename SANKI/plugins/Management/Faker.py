@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from faker import Faker
-from AarohiX import app
+from SANKI import app
 
 fake = Faker()
 
