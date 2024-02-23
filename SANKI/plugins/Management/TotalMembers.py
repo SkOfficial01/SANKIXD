@@ -1,8 +1,8 @@
-from AarohiX.utils.admin_check import admin_filter
+from SANKI.utils.admin_check import admin_filter
 import os
 import csv
 from pyrogram import Client, filters
-from AarohiX import app
+from SANKI import app
 
 @app.on_message(filters.command("user") & admin_filter)
 def user_command(client, message):
