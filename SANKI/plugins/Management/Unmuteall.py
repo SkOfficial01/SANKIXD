@@ -1,7 +1,7 @@
-from AarohiX import app
+from SANKI import app
 from pyrogram import filters,enums
 from pyrogram.types import ChatPermissions 
-from AarohiX.utils.admin_check import admin_filter
+from SANKI.utils.admin_check import admin_filter
 
 @app.on_message(filters.command("unmuteall") & admin_filter)
 async def unmute_all(_,msg):
