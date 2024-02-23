@@ -7,7 +7,7 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 from pyrogram import filters
 
-from AarohiX import app
+from SANKI import app
 
 # dilop
 
