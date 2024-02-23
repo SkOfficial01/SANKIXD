@@ -1,5 +1,5 @@
-from AarohiX import app
-from AarohiX.misc import SUDOERS
+from SANKI import app
+from SANKI.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
 from AarohiX.utils.admin_check import admin_filter
