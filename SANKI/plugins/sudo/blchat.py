@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from AarohiX.utils.decorators.language import language
+from SANKI import app
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from SANKI.utils.decorators.language import language
 from config import BANNED_USERS
 
 
