@@ -1,7 +1,7 @@
 from SafoneAPI import SafoneAPI
 from pyrogram import *
 from pyrogram.types import *
-from AarohiX import app
+from SANKI import app
 
 api = SafoneAPI()
 
