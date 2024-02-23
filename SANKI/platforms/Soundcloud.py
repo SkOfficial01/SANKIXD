@@ -2,7 +2,7 @@ from os import path
 
 from yt_dlp import YoutubeDL
 
-from AarohiX.utils.formatters import seconds_to_min
+from SANKI.utils.formatters import seconds_to_min
 
 
 class SoundAPI:
