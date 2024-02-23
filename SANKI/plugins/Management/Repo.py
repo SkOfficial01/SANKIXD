@@ -1,9 +1,9 @@
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from AarohiX import app as bot
+from SANKI import app as bot
 import requests
 from config import BOT_USERNAME
-from AarohiX.utils.errors import capture_err
+from SANKI.utils.errors import capture_err
 
 start_txt = """**
 ➤ ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴍʏ ᴡᴏʀʟᴅ ᥫᩣ
