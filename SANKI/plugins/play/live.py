@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from AarohiX import YouTube, app
-from AarohiX.utils.channelplay import get_channeplayCB
-from AarohiX.utils.decorators.language import languageCB
-from AarohiX.utils.stream.stream import stream
+from SANKI import YouTube, app
+from SANKI.utils.channelplay import get_channeplayCB
+from SANKI.utils.decorators.language import languageCB
+from SANKI.utils.stream.stream import stream
 from config import BANNED_USERS
 
 
