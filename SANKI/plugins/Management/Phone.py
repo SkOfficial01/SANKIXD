@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 import requests
 import json
-from AarohiX import app
+from SANKI import app
 
 def send_message(message, text):
     message.reply_text(text)
