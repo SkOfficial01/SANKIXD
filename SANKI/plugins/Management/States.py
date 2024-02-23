@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import pycountry
-from AarohiX import app
+from SANKI import app
 
 @app.on_message(filters.command("get_states"))
 def get_states(client, message):
