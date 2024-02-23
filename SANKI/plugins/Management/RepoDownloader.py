@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 import git
 import shutil
 import os
-from AarohiX import app
+from SANKI import app
 
 @app.on_message(filters.command(["gitdl"]))
 def download_repo(_, message):
