@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from datetime import datetime
 import pytz
-from AarohiX import app
+from SANKI import app
 
 
 def get_current_time():
