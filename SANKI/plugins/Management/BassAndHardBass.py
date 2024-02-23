@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import Message
 from pydub import AudioSegment
 import os
-from AarohiX import app
+from SANKI import app
 
 @app.on_message(filters.command("bass"))
 async def bass_boost_command(client, message):
