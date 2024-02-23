@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.utils.database import set_cmode
-from AarohiX.utils.decorators.admins import AdminActual
+from SANKI import app
+from SANKI.utils.database import set_cmode
+from SANKI.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 
