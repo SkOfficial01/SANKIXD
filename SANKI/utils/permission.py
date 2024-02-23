@@ -1,5 +1,5 @@
 from time import time
-from AarohiX.misc import SUDOERS as SUDO
+from SANKI.misc import SUDOERS as SUDO
 from functools import wraps
 from pyrogram import Client, filters
 from pyrogram.types import Message
