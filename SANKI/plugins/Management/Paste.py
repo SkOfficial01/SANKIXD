@@ -1,6 +1,6 @@
 import os, re, json, aiohttp, requests
 from pyrogram import Client, filters
-from AarohiX import app
+from SANKI import app
 
 #---------------+-----------+---------------#
 headers = {
