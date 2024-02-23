@@ -1,10 +1,10 @@
 import re
-from AarohiX import app
+from SANKI import app
 from config import BOT_USERNAME
-from AarohiX.utils.admin_check import admin_filter
-from AarohiX.utils.Databases.filtersdb import *
-from AarohiX.utils.function.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from AarohiX.utils.Databases.adisadb import user_admin
+from SANKI.utils.admin_check import admin_filter
+from SANKI.utils.Databases.filtersdb import *
+from SANKI.utils.function.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from SANKI.utils.Databases.adisadb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
