@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.utils import extract_user, int_to_alpha
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.utils import extract_user, int_to_alpha
+from SANKI.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from AarohiX.utils.decorators import AdminActual, language
-from AarohiX.utils.inline import close_markup
+from SANKI.utils.decorators import AdminActual, language
+from SANKI.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 
