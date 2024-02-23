@@ -1,4 +1,4 @@
-from AarohiX import app as Adisa
+from SANKI import app as Adisa
 from os import environ
 import random
 from pyrogram.types import CallbackQuery
