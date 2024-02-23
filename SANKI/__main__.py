@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from AarohiX import LOGGER, app, userbot
-from AarohiX.core.call import Dil
-from AarohiX.misc import sudo
-from AarohiX.plugins import ALL_MODULES
-from AarohiX.utils.database import get_banned_users, get_gbanned
+from SANKI import LOGGER, app, userbot
+from SANKI.core.call import Sanki
+from SANKI.misc import sudo
+from SANKI.plugins import ALL_MODULES
+from SANKI.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("AarohiX.plugins" + all_module)
-    LOGGER("AarohiX.plugins").info("sᴜᴄᴄᴇssғᴜʟʟʏ ɪᴍᴘᴏʀᴛᴇᴅ ᴀʟʟ ᴍᴏᴅᴜʟᴇs...")
+        importlib.import_module("SANKI.plugins" + all_module)
+    LOGGER("SANKI.plugins").info("sᴜᴄᴄᴇssғᴜʟʟʏ ɪᴍᴘᴏʀᴛᴇᴅ ᴀʟʟ ᴍᴏᴅᴜʟᴇs...")
     await userbot.start()
-    await Dil.start()
+    await Sanki.start()
     try:
-        await Dil.stream_call("https://te.legra.ph/file/39b302c93da5c457a87e3.mp4")
+        await Sanki.stream_call("https://te.legra.ph/file/39b302c93da5c457a87e3.mp4")
     except NoActiveGroupCall:
         LOGGER("AarohiX").error(
-            "ʙsᴅᴋ ᴠᴄ ᴛᴏ ᴏɴ ᴋᴀʀʟᴇ  ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ ᴋɪ.\n\n ᴏɴ ᴋᴀʀᴋᴇ ᴀᴀ ᴛᴀʙ ᴛᴀᴋ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ..."
+            "ʙʀᴏ ᴠᴄ ᴛᴏ ᴏɴ ᴋᴀʀʟᴇ  ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ ᴋɪ.\n\n ᴏɴ ᴋᴀʀᴋᴇ ᴀᴀ ᴛᴀʙ ᴛᴀᴋ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ..."
         )
         exit()
     except:
         pass
-    await Dil.decorators()
-    LOGGER("AarohiX").info(
-        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ɢɪʙ ʏᴏᴜʀ ɢɪʀʟғʀɪᴇɴᴅ ᴄʜᴜᴛ ɪɴ @LOVE_FEELINGS_WILL1"
+    await Sanki.decorators()
+    LOGGER("SANKI").info(
+        "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʟɪsᴛᴇɴ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AarohiX").info("ᴍᴀᴀ ᴄʜᴜᴅᴀ ᴍᴀɪɴ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ AᴀʀᴏʜɪX Mᴜsɪᴄ Bᴏᴛ...")
+    LOGGER("SANKI").info("sᴏʀʀʏ ᴍᴇ ʙᴏᴛ ʙᴀɴᴅ ᴋʀ ʀʜᴀ ʜᴜ.....")
 
 
 if __name__ == "__main__":
