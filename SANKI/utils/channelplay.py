@@ -1,5 +1,5 @@
-from AarohiX import app
-from AarohiX.utils.database import get_cmode
+from SANKI import app
+from SANKI.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
