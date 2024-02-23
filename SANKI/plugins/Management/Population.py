@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import requests
-from AarohiX import app
+from SANKI import app
 
 @app.on_message(filters.command("population"))
 def country_command_handler(client: Client, message: Message):
