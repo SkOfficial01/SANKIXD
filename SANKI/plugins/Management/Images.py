@@ -1,6 +1,6 @@
 import requests
 from requests import get 
-from AarohiX import app
+from SANKI import app
 from pyrogram import filters
 from pyrogram.types import InputMediaPhoto
 
