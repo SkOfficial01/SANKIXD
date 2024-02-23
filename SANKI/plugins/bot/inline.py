@@ -5,7 +5,7 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from AarohiX import app
+from SANKI import app
 #from AarohiX.utils.inlinequery import answer
 from config import BANNED_USERS
 
