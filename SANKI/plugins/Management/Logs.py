@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from config import LOGGER_ID as LOG_ID
-from AarohiX import app
+from SANKI import app
 
 
 async def new_message(chat_id: int, message: str, reply_markup=None):
