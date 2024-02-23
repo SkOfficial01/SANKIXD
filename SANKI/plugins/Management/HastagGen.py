@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup as  BSP
-from AarohiX import app
+from SANKI import app
 from pyrogram import filters
 
 
