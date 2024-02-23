@@ -8,16 +8,16 @@ from pyrogram.raw import types
 
 import config
 from config import adminlist, chatstats, clean, userstats
-from AarohiX import app, userbot
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import (get_active_chats,
+from SANKI import app, userbot
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import (get_active_chats,
                                        get_authuser_names, get_client,
                                        
  get_served_chats,
  get_served_users, is_cleanmode_on, set_queries)
                                        
-from AarohiX.utils.decorators.language import language
-from AarohiX.utils.formatters import alpha_to_int
+from SANKI.utils.decorators.language import language
+from SANKI.utils.formatters import alpha_to_int
 
 AUTO_DELETE = config.CLEANMODE_DELETE_MINS
 AUTO_SLEEP = 5
