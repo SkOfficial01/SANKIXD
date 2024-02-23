@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils import get_readable_time
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.misc import SUDOERS
+from SANKI.utils import get_readable_time
+from SANKI.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from AarohiX.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from AarohiX.utils.decorators.language import language
-from AarohiX.utils.extraction import extract_user
+from SANKI.utils.decorators.language import language
+from SANKI.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
