@@ -8,12 +8,12 @@ from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 import re
 from os import getenv
-from AarohiX import app
-from AarohiX.core.call import Dil
-from AarohiX.misc import db
-from AarohiX.utils.database import get_assistant, get_authuser_names, get_cmode
-from AarohiX.utils.decorators import ActualAdminCB, AdminActual, language
-from AarohiX.utils.formatters import alpha_to_int, get_readable_time
+from SANKI import app
+from SANKI.core.call import Dil
+from SANKI.misc import db
+from SANKI.utils.database import get_assistant, get_authuser_names, get_cmode
+from SANKI.utils.decorators import ActualAdminCB, AdminActual, language
+from SANKI.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
