@@ -10,15 +10,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from AarohiX import app
-from AarohiX.misc import HAPP, SUDOERS, XCB
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.misc import HAPP, SUDOERS, XCB
+from SANKI.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from AarohiX.utils.decorators.language import language
-from AarohiX.utils.pastebin import DilBin
+from SANKI.utils.decorators.language import language
+from SANKI.utils.pastebin import DilBin
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
