@@ -1,5 +1,5 @@
 from pyrogram import Client, filters
-from AarohiX import app
+from SANKI import app
 from config import OWNER_ID, BOT_USERNAME
 from pyrogram.types import Message
 
