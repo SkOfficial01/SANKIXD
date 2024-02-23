@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from AarohiX import app
+from SANKI import app
 
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import add_sudo, remove_sudo
-from AarohiX.utils.decorators.language import language
-from AarohiX.utils.extraction import extract_user
-from AarohiX.utils.inline import close_markup
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import add_sudo, remove_sudo
+from SANKI.utils.decorators.language import language
+from SANKI.utils.extraction import extract_user
+from SANKI.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
