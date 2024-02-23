@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from AarohiX import app
-from AarohiX.core.call import Dil, autoend
-from AarohiX.utils.database import get_client, is_active_chat, is_autoend
+from SANKI import app
+from SANKI.core.call import Dil, autoend
+from SANKI.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
