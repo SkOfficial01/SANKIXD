@@ -5,8 +5,8 @@ from datetime import datetime, timedelta
 import config
 from config import clean
 from strings import get_string
-from AarohiX import app
-from AarohiX.utils.database import (get_lang,
+from SANKI import app
+from SANKI.utils.database import (get_lang,
                                        get_served_chats,
                                        is_suggestion)
 
