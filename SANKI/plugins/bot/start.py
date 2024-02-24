@@ -147,7 +147,7 @@ async def welcome(client, message: Message):
                     return await app.leave_chat(message.chat.id)
                 if message.chat.id in await blacklisted_chats():
                     await message.reply_text(
-                        _["start_5"].format(
+                        _["start_2"].format(
                             app.mention,
                             f"https://t.me/{app.username}?start=sudolist",
                             config.SUPPORT_CHAT,
@@ -159,7 +159,7 @@ async def welcome(client, message: Message):
                 out = start_panel(_)
                 await message.reply_photo(
                     photo=config.START_IMG_URL,
-                    caption=_["start_3"].format(
+                    caption=_["start_2"].format(
                         message.from_user.first_name,
                         app.mention,
                         message.chat.title,
