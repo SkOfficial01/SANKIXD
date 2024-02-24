@@ -10,7 +10,7 @@ from pyrogram import filters
 from pyrogram.types import ChatPermissions
 from pyrogram.errors import ChatAdminRequired
 
-from AarohiX.utils.Databases.blacklist_db import (
+from SANKI.utils.Databases.blacklist_db import (
     delete_blacklist_filter,
     get_blacklisted_words,
     save_blacklist_filter,
