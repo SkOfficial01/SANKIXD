@@ -1,5 +1,5 @@
 from typing import List
-from AarohiX.utils.database import mongodb
+from SANKI.utils.database import mongodb
 
 blacklist_filtersdb = mongodb["blacklistFilters"]
 
