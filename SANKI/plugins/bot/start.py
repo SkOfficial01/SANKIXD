@@ -51,7 +51,7 @@ async def start_pm(client, message: Message, _):
         name = message.text.split(None, 1)[1]
         if name[0:4] == "help":
             keyboard = first_page(_)
-            await message.reply_sticker("CAACAgUAAx0CcSyO9gACl7dkQoL0p1vXqcYtCuCHmSyh4Hi1UgACEwgAAonAEVYwaJ0Jkk8L0B4E")
+            await message.reply_sticker("CAACAgQAAx0CfZaObAACAQ9l2kHlGGCtFsRQP_nt864BXaeq6QACYhEAArL1IFJSwcBaFbhEdB4E")
             return await message.reply_photo(
                 photo=config.START_IMG_URL,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
@@ -104,7 +104,7 @@ async def start_pm(client, message: Message, _):
                 )
     else:
         out = private_panel(_)
-        await message.reply_sticker("CAACAgUAAx0CcSyO9gACl7dkQoL0p1vXqcYtCuCHmSyh4Hi1UgACEwgAAonAEVYwaJ0Jkk8L0B4E")
+        await message.reply_sticker("CAACAgQAAx0CfZaObAACAQ9l2kHlGGCtFsRQP_nt864BXaeq6QACYhEAArL1IFJSwcBaFbhEdB4E")
         await message.reply_photo(
             photo=config.START_IMG_URL,
             caption=_["start_2"].format(message.from_user.mention, app.mention),
@@ -124,7 +124,7 @@ async def start_gp(client, message: Message, _):
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
         photo=config.START_IMG_URL,
-        caption=_["start_1"].format(app.mention, get_readable_time(uptime)),
+        caption=_["start_2"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
     return await add_served_chat(message.chat.id)
