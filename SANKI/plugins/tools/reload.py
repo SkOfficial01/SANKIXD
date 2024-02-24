@@ -9,7 +9,7 @@ from pyrogram.types import CallbackQuery, Message
 import re
 from os import getenv
 from SANKI import app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.misc import db
 from SANKI.utils.database import get_assistant, get_authuser_names, get_cmode
 from SANKI.utils.decorators import ActualAdminCB, AdminActual, language
