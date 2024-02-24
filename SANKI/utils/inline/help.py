@@ -1,6 +1,6 @@
 # Importing important modules & bot
 
-from AarohiX import app
+from SANKI import app
 from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
