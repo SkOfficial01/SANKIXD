@@ -1,6 +1,6 @@
 import asyncio
 import datetime
-from AarohiX import app
+from SANKI import app
 from pyrogram import Client
 from SANKI.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
