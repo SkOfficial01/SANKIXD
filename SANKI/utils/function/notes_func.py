@@ -3,10 +3,10 @@ from pyrogram.types import Message
 import html
 import re
 from pyrogram.types import InlineKeyboardMarkup
-from AarohiX import app
-from AarohiX.utils.Databases.notesdb import GetNote
+from SANKI import app
+from SANKI.utils.Databases.notesdb import GetNote
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from AarohiX.utils.msg_types import button_markdown_parser
+from SANKI.utils.msg_types import button_markdown_parser
 
 class NoteTypeMap(Enum):
     text = auto()
