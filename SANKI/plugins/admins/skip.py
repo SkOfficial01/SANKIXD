@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
 from SANKI import YouTube, app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.misc import db
 from SANKI.utils.database import get_loop
 from SANKI.utils.decorators import AdminRightsCheck
