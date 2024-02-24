@@ -11,7 +11,7 @@ from SANKI.misc import db
 from SANKI.utils.database import add_active_video_chat, is_active_chat
 from SANKI.utils.exceptions import AssistantErr
 from SANKI.utils.inline import aq_markup, close_markup, stream_markup
-from SANKI.utils.pastebin import SANKIBIN
+from SANKI.utils.pastebin import DilBin
 from SANKI.utils.stream.queue import put_queue, put_queue_index
 from SANKI.utils.thumbnails import get_thumb
 
