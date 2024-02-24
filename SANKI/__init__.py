@@ -1,4 +1,4 @@
-from SANKI.core.bot import Sanki
+from SANKI.core.bot import SANKI
 from SANKI.core.dir import dirr
 from SANKI.core.git import git
 from SANKI.core.userbot import Userbot
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Dil()
+app = SANKI()
 userbot = Userbot()
 
 
