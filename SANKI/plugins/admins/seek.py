@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AarohiX import YouTube, app
-from AarohiX.core.call import SANKI
-from AarohiX.misc import db
-from AarohiX.utils import AdminRightsCheck, seconds_to_min
-from AarohiX.utils.inline import close_markup
+from SANKI import YouTube, app
+from SANKI.core.call import SANKI
+from SANKI.misc import db
+from SANKI.utils import AdminRightsCheck, seconds_to_min
+from SANKI.utils.inline import close_markup
 from config import BANNED_USERS
 
 
