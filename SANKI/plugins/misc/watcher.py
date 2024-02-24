@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SANKI import app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 
 welcome = 20
 close = 30
