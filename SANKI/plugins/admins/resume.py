@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SANKI import app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.utils.database import is_music_playing, music_on
 from SANKI.utils.decorators import AdminRightsCheck
 from SANKI.utils.inline import close_markup
