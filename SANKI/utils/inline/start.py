@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from AarohiX import app
+from SANKI import app
 
 
 def start_panel(_):
