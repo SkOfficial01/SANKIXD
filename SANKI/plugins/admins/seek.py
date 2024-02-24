@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from AarohiX import YouTube, app
-from AarohiX.core.call import Dil
+from AarohiX.core.call import SANKI
 from AarohiX.misc import db
 from AarohiX.utils import AdminRightsCheck, seconds_to_min
 from AarohiX.utils.inline import close_markup
