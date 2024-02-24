@@ -1,5 +1,5 @@
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import get_lang, is_maintenance
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
