@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AarohiX import app
-from AarohiX.misc import SUDOERS, db
-from AarohiX.utils.database import (
+from SANKI import app
+from SANKI.misc import SUDOERS, db
+from SANKI.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
