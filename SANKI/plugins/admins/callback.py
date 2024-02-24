@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from SANKI import YouTube, app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.misc import SUDOERS, db
 from SANKI.utils.database import (
     get_active_chats,
