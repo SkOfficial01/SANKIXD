@@ -1,4 +1,4 @@
-from AarohiX.utils.database import mongodb
+from SANKI.utils.database import mongodb
 
 filters = mongodb.filters["filters"] 
 
