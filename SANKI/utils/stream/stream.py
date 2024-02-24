@@ -5,15 +5,15 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from AarohiX import Carbon, YouTube, app
-from AarohiX.core.call import Dil
-from AarohiX.misc import db
-from AarohiX.utils.database import add_active_video_chat, is_active_chat
-from AarohiX.utils.exceptions import AssistantErr
-from AarohiX.utils.inline import aq_markup, close_markup, stream_markup
-from AarohiX.utils.pastebin import DilBin
-from AarohiX.utils.stream.queue import put_queue, put_queue_index
-from AarohiX.utils.thumbnails import get_thumb
+from SANKI import Carbon, YouTube, app
+from SANKI.core.call import Dil
+from SANKI.misc import db
+from SANKI.utils.database import add_active_video_chat, is_active_chat
+from SANKI.utils.exceptions import AssistantErr
+from SANKI.utils.inline import aq_markup, close_markup, stream_markup
+from SANKI.utils.pastebin import DilBin
+from SANKI.utils.stream.queue import put_queue, put_queue_index
+from SANKI.utils.thumbnails import get_thumb
 
 
 async def stream(
