@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from AarohiX.misc import db
-from AarohiX.utils.formatters import check_duration, seconds_to_min
+from SANKI.misc import db
+from SANKI.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 
