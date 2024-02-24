@@ -1,6 +1,6 @@
 from typing import Dict, List, Union
 from config import MONGO_DB_URI
-from AarohiX.utils.database import mongodb
+from SANKI.utils.database import mongodb
 
 
 impdb = mongodb.pretender
