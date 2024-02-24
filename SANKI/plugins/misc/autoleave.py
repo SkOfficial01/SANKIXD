@@ -5,7 +5,7 @@ from pyrogram.enums import ChatType
 
 import config
 from SANKI import app
-from SANKI.core.call import Dil, autoend
+from SANKI.core.call import SANKI, autoend
 from SANKI.utils.database import get_client, is_active_chat, is_autoend
 
 
