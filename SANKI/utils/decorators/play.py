@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AarohiX import YouTube, app
-from AarohiX.misc import SUDOERS
-from AarohiX.utils.database import (
+from SANKI import YouTube, app
+from SANKI.misc import SUDOERS
+from SANKI.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from AarohiX.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from AarohiX.utils.inline import botplaylist_markup
+from SANKI.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
