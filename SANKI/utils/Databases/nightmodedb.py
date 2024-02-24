@@ -1,5 +1,5 @@
 from typing import Dict, List, Union
-from AarohiX.utils.database import mongodb
+from SANKI.utils.database import mongodb
 
 nightdb = mongodb.nightmode
 
