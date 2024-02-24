@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from SANKI import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.utils import seconds_to_min, time_to_seconds
 from SANKI.utils.channelplay import get_channeplayCB
 from SANKI.utils.decorators.language import languageCB
