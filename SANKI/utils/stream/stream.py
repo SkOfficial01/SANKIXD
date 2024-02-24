@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup
 
 import config
 from SANKI import Carbon, YouTube, app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.misc import db
 from SANKI.utils.database import add_active_video_chat, is_active_chat
 from SANKI.utils.exceptions import AssistantErr
