@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from SANKI import LOGGER, app, userbot
-from SANKI.core.call import Sanki
+from SANKI.core.call import SANKI
 from SANKI.misc import sudo
 from SANKI.plugins import ALL_MODULES
 from SANKI.utils.database import get_banned_users, get_gbanned
