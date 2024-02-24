@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from SANKI import app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.misc import SUDOERS, db
 from SANKI.utils import AdminRightsCheck
 from SANKI.utils.database import is_active_chat, is_nonadmin_chat
