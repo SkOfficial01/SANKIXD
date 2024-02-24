@@ -38,17 +38,17 @@ async def init():
         importlib.import_module("SANKI.plugins" + all_module)
     LOGGER("SANKI.plugins").info("sᴜᴄᴄᴇssғᴜʟʟʏ ɪᴍᴘᴏʀᴛᴇᴅ ᴀʟʟ ᴍᴏᴅᴜʟᴇs...")
     await userbot.start()
-    await Sanki.start()
+    await SANKI.start()
     try:
-        await Sanki.stream_call("https://te.legra.ph/file/39b302c93da5c457a87e3.mp4")
+        await SANKI.stream_call("https://te.legra.ph/file/39b302c93da5c457a87e3.mp4")
     except NoActiveGroupCall:
-        LOGGER("AarohiX").error(
+        LOGGER("SANKI").error(
             "ʙʀᴏ ᴠᴄ ᴛᴏ ᴏɴ ᴋᴀʀʟᴇ  ʟᴏɢ ɢʀᴏᴜᴘ\ᴄʜᴀɴɴᴇʟ ᴋɪ.\n\n ᴏɴ ᴋᴀʀᴋᴇ ᴀᴀ ᴛᴀʙ ᴛᴀᴋ ʙᴏᴛ ʙᴀɴᴅ ᴋᴀʀ ʀʜᴀ..."
         )
         exit()
     except:
         pass
-    await Sanki.decorators()
+    await SANKI.decorators()
     LOGGER("SANKI").info(
         "ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ, ɴᴏᴡ ʏᴏᴜ ᴄᴀɴ ʟɪsᴛᴇɴ ʟᴀɢ ғʀᴇᴇ ᴍᴜsɪᴄ"
     )
