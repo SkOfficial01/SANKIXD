@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaVideo
 
 from SANKI import app
-from SANKI.core.call import Dil
+from SANKI.core.call import SANKI
 from SANKI.utils import bot_sys_stats
 from SANKI.utils.decorators.language import language
 from config import BANNED_USERS, PING_IMG_URL
