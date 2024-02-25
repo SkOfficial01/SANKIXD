@@ -26,9 +26,7 @@ from strings import get_string
 
 
 #<<<<<<<<<<<<<pics>>>>>>>>>>>#
-
-"""
-ADISA_PICS = [
+SANKI_PICS = [
 "https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
 "https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
 "https://telegra.ph/file/0c2a557598a5aa8033895.jpg",
@@ -39,8 +37,7 @@ ADISA_PICS = [
 ]
 
 
-#<<<<<<<<<<<<<pics>>>>>>>>>>>#
-"""
+#<<<<<<<<<<<<<pics>>>>>>>>>>>
 
 
 @app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
@@ -53,7 +50,7 @@ async def start_pm(client, message: Message, _):
             keyboard = first_page(_)
             await message.reply_sticker("CAACAgQAAx0CfZaObAACAQ9l2kHlGGCtFsRQP_nt864BXaeq6QACYhEAArL1IFJSwcBaFbhEdB4E")
             return await message.reply_photo(
-                photo=config.START_IMG_URL,
+                photo=config.SANKI_PICS,
                 caption=_["help_1"].format(config.SUPPORT_CHAT),
                 reply_markup=keyboard,
             )
@@ -106,7 +103,7 @@ async def start_pm(client, message: Message, _):
         out = private_panel(_)
         await message.reply_sticker("CAACAgQAAx0CfZaObAACAQ9l2kHlGGCtFsRQP_nt864BXaeq6QACYhEAArL1IFJSwcBaFbhEdB4E")
         await message.reply_photo(
-            photo=config.START_IMG_URL,
+            photo=config.SANKI_PICS,
             caption=_["start_2"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
@@ -123,7 +120,7 @@ async def start_gp(client, message: Message, _):
     out = start_panel(_)
     uptime = int(time.time() - _boot_)
     await message.reply_photo(
-        photo=config.START_IMG_URL,
+        photo=config.SANKI_PICS,
         caption=_["start_2"].format(app.mention, get_readable_time(uptime)),
         reply_markup=InlineKeyboardMarkup(out),
     )
