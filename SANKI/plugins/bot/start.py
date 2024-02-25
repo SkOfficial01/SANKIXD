@@ -107,7 +107,7 @@ async def start_pm(client, message: Message, _):
         await message.reply_sticker("CAACAgQAAx0CfZaObAACAQ9l2kHlGGCtFsRQP_nt864BXaeq6QACYhEAArL1IFJSwcBaFbhEdB4E")
         await message.reply_photo(
             photo=config.START_IMG_URL,
-            caption=_["start_2"].format(message.from_user.mention, app.mention),
+            caption=_["start_7"].format(message.from_user.mention, app.mention),
             reply_markup=InlineKeyboardMarkup(out),
         )
         if await is_on_off(2):
