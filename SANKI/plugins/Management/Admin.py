@@ -2,7 +2,7 @@ from SANKI import app
 from SANKI.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from AarohiX.utils.admin_check import admin_filter
+from SANKI.utils.admin_check import admin_filter
 
 strict_txt = [
     "ᴅᴏsᴛ ᴋɪ ɢᴀᴀɴᴅ ɴʜɪ ᴍᴀᴀʀ sᴋᴛᴀ.",
