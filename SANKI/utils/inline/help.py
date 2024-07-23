@@ -1,6 +1,6 @@
 # Importing important modules & bot
 
-from SANKI import app
+from AarohiX import app
 from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
@@ -49,10 +49,3 @@ def help_back_markup(_):
 def private_help_panel(_):
 	buttons = [[InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/{app.username}?start=help")]]
 	return buttons
-
-
-
-#----------------------------> NOTE <-----------------------------#
-"""
-Written By Dil.
-"""
